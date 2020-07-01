@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Hind:200,300,400,500,600,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.0.8/js/all.js");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./sass/variables";
+@import "./sass/mixins";
+
+
+$blue: #2879fe;
+$grey-700: #777777;
+$border-color-gray: #e9e7e7;
+$text-gray: #999;
+$white: #ffffff;
+$grey-900: #191919;
+$default-font-size: 1.6rem;
+$light-blue: #add8e6;
+$orange: #fe9001;
+$grey-800: #999999;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 87.5%;
+}
+
+body {
+  font-family: Hind,sans-serif;
+  line-height: 22px;
+  font-weight: 300;
+  color: $grey-700;
+  background: center 0 no-repeat $white;
+  margin: 0;
+  overflow-x: hidden;
+  direction: ltr;
+}
+

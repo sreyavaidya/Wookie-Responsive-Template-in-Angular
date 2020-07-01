@@ -1,0 +1,538 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Shop</a></li>
+    <li class="breadcrumb-item active" aria-current="page">T-Shirt</li>
+  </ol>
+</nav>
+
+<!-- <div class="container-fluid"> -->
+<!-- <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+  (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+  <div ngxSlickItem class="slide">
+    <img src="../../../assets/img/man.jpg" alt="" width="25%">
+    <img src="../../../assets/img/mantshirt.jpg" alt="" width="25%">
+    <img src="../../../assets/img/man-full.jpg" alt="" width="25%">
+    <img src="../../../assets/img/man-half.jpg" alt="" width="25%">
+  </div>
+  </ngx-slick-carousel> -->
+<!-- </div> -->
+
+<section>
+  <div class="container container-fluid-mobile">
+    <div class="row">
+      <div class="col-6 hidden-xs">
+        <div class="tt-product-vertical-layout">
+          <div class="tt-product-single-img">
+            <div><button class="tt-btn-zomm tt-top-right"><i class="icon-f-86"></i></button> <img
+                class="zoom-product loaded" src=""
+                data-zoom-image="images/product/product-01-03.jpg" alt="" data-was-processed="true"></div>
+          </div>
+          <div class="tt-product-single-carousel-vertical">
+            <ul id="smallGallery"
+              class="tt-slick-button-vertical slick-animated-show-js slick-initialized slick-slider slick-vertical">
+              <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button"
+                style="display: block;">Previous</button>
+              <div aria-live="polite" class="slick-list draggable" style="height: 605px;">
+                <div class="slick-track" style="opacity: 1; height: 1936px; transform: translate3d(0px, -968px, 0px);"
+                  role="listbox">
+                  <li class="slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;"><a href="#" data-image="images/product/product-01-02.jpg"
+                      data-zoom-image="images/product/product-01-02.jpg" tabindex="-1"><img
+                        src="images/product/product-01-02.jpg" alt=""></a></li>
+                  <li class="slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;"><a href="#" data-image="images/product/product-01-03.jpg"
+                      data-zoom-image="images/product/product-01-03.jpg" tabindex="-1"><img
+                        src="images/product/product-01-03.jpg" alt=""></a></li>
+                  <li class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;"><a href="#" data-image="images/product/product-01-04.jpg"
+                      data-zoom-image="images/product/product-01-04.jpg" tabindex="-1"><img
+                        src="images/product/product-01-04.jpg" alt=""></a></li>
+                  <li class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;">
+                    <div class="video-link-product" data-toggle="modal" data-type="youtube"
+                      data-target="#modalVideoProduct" data-value="http://www.youtube.com/embed/GhyKqj_P2E4"><img
+                        src="images/product/product-small-empty.png" alt="">
+                      <div><i class="icon-f-32"></i></div>
+                    </div>
+                  </li>
+                  <li class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;">
+                    <div class="video-link-product" data-toggle="modal" data-type="video"
+                      data-target="#modalVideoProduct" data-value="video/video.mp4" data-poster="video/video_img.jpg">
+                      <img src="images/product/product-small-empty.png" alt="" class="loading"
+                        data-was-processed="true">
+                      <div><i class="icon-f-32"></i></div>
+                    </div>
+                  </li>
+                  <li class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option"
+                    aria-describedby="slick-slide30" style="width: 81px;"><a class="" href="#"
+                      data-image="images/product/product-01.jpg" data-zoom-image="images/product/product-01.jpg"
+                      tabindex="-1"><img src="images/product/product-01.jpg" alt="" class="loading"
+                        data-was-processed="true"></a></li>
+                  <li class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option"
+                    aria-describedby="slick-slide31" style="width: 81px;"><a href="#"
+                      data-image="images/product/product-01-02.jpg" data-zoom-image="images/product/product-01-02.jpg"
+                      tabindex="-1" class=""><img src="images/product/product-01-02.jpg" alt="" class="loading"
+                        data-was-processed="true"></a></li>
+                  <li class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option"
+                    aria-describedby="slick-slide32" style="width: 81px;"><a href="#"
+                      data-image="images/product/product-01-03.jpg" data-zoom-image="images/product/product-01-03.jpg"
+                      tabindex="-1" class="zoomGalleryActive"><img src="images/product/product-01-03.jpg" alt=""
+                        class="loading" data-was-processed="true"></a></li>
+                  <li class="slick-slide slick-current slick-active" data-slick-index="3" aria-hidden="false"
+                    tabindex="-1" role="option" aria-describedby="slick-slide33" style="width: 81px;"><a href="#"
+                      data-image="images/product/product-01-04.jpg" data-zoom-image="images/product/product-01-04.jpg"
+                      tabindex="0" class=""><img src="images/product/product-01-04.jpg" alt="" class="loading"
+                        data-was-processed="true"></a></li>
+                  <li class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1"
+                    role="option" aria-describedby="slick-slide34" style="width: 81px;">
+                    <div class="video-link-product" data-toggle="modal" data-type="youtube"
+                      data-target="#modalVideoProduct" data-value="http://www.youtube.com/embed/GhyKqj_P2E4"><img
+                        src="images/product/product-small-empty.png" alt="" class="loading" data-was-processed="true">
+                      <div><i class="icon-f-32"></i></div>
+                    </div>
+                  </li>
+                  <li class="slick-slide slick-active" data-slick-index="5" aria-hidden="false" tabindex="-1"
+                    role="option" aria-describedby="slick-slide35" style="width: 81px;">
+                    <div class="video-link-product" data-toggle="modal" data-type="video"
+                      data-target="#modalVideoProduct" data-value="video/video.mp4" data-poster="video/video_img.jpg">
+                      <img src="images/product/product-small-empty.png" alt="" class="loading"
+                        data-was-processed="true">
+                      <div><i class="icon-f-32"></i></div>
+                    </div>
+                  </li>
+                  <li class="slick-slide slick-cloned slick-active" data-slick-index="6" aria-hidden="false"
+                    tabindex="-1" style="width: 81px;"><a class="" href="#" data-image="images/product/product-01.jpg"
+                      data-zoom-image="images/product/product-01.jpg" tabindex="0"><img
+                        src="images/product/product-01.jpg" alt="" class="loading" data-was-processed="true"></a></li>
+                  <li class="slick-slide slick-cloned slick-active" data-slick-index="7" aria-hidden="false"
+                    tabindex="-1" style="width: 81px;"><a href="#" data-image="images/product/product-01-02.jpg"
+                      data-zoom-image="images/product/product-01-02.jpg" tabindex="0"><img
+                        src="images/product/product-01-02.jpg" alt="" class="loading" data-was-processed="true"></a>
+                  </li>
+                  <li class="slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;"><a href="#" data-image="images/product/product-01-03.jpg"
+                      data-zoom-image="images/product/product-01-03.jpg" tabindex="-1"><img
+                        src="images/product/product-01-03.jpg" alt="" class="loading" data-was-processed="true"></a>
+                  </li>
+                  <li class="slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;"><a href="#" data-image="images/product/product-01-04.jpg"
+                      data-zoom-image="images/product/product-01-04.jpg" tabindex="-1"><img
+                        src="images/product/product-01-04.jpg" alt="" class="loading" data-was-processed="true"></a>
+                  </li>
+                  <li class="slick-slide slick-cloned" data-slick-index="10" aria-hidden="true" tabindex="-1"
+                    style="width: 81px;">
+                    <div class="video-link-product" data-toggle="modal" data-type="youtube"
+                      data-target="#modalVideoProduct" data-value="http://www.youtube.com/embed/GhyKqj_P2E4"><img
+                        src="images/product/product-small-empty.png" alt="" class="loading" data-was-processed="true">
+                      <div><i class="icon-f-32"></i></div>
+                    </div>
+                  </li>
+                </div>
+              </div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next"
+                role="button" style="display: block;">Next</button>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="tt-product-single-info">
+          <div class="tt-add-info">
+            <ul>
+              <li><span>SKU:</span> 001</li>
+              <li><span>Availability:</span> 40 in Stock</li>
+            </ul>
+          </div>
+          <h1 class="tt-title">Cotton Blend Fleece Hoodie</h1>
+          <div class="tt-price"><span class="new-price">$29</span></div>
+          <div class="tt-review">
+            <div class="tt-rating"><i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i> <i
+                class="icon-star-half"></i> <i class="icon-star-empty"></i></div><a class="product-page-gotocomments-js"
+              href="#">(1 Customer Review)</a>
+          </div>
+          <div class="tt-wrapper">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+          <div class="tt-wrapper">
+            <div class="tt-countdown_box_02">
+              <div class="tt-countdown_inner">
+                <div class="tt-countdown" data-date="2020-11-01" data-year="Yrs" data-month="Mths" data-week="Wk"
+                  data-day="Day" data-hour="Hrs" data-minute="Min" data-second="Sec"><span class="countdown-row"><span
+                      class="countdown-section"><span class="countdown-amount">124</span><span
+                        class="countdown-period">Day</span></span><span class="countdown-section"><span
+                        class="countdown-amount">2</span><span class="countdown-period">Hrs</span></span><span
+                      class="countdown-section"><span class="countdown-amount">12</span><span
+                        class="countdown-period">Min</span></span><span class="countdown-section"><span
+                        class="countdown-amount">44</span><span class="countdown-period">Sec</span></span></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="tt-wrapper">
+            <div class="tt-row-custom-01">
+              <div class="col-item">
+                <div class="tt-input-counter style-01"><span></span> <input type="text" value="1"
+                    size="5"> <span class="plus-btn"></span></div>
+              </div>
+              <div class="col-item"> <div class="btn btn-secondary" style="display: inline-block;">
+                <i class="fa fa-shopping-bag" style="padding-right: 10px;"></i> ADD TO CART
+              </div></div>
+            </div>
+          </div>
+          <div class="tt-wrapper">
+            <ul class="tt-list-btn">
+              <li><a class="" href="#"><i class="icon-n-072"></i>ADD TO WISH LIST</a></li>
+              <li><a class="" href="#"><i class="icon-n-08"></i>ADD TO COMPARE</a></li>
+            </ul>
+          </div>
+          <div class="tt-wrapper">
+            <div class="tt-add-info">
+              <ul>
+                <li><span>Vendor:</span> Polo</li>
+                <li><span>Product Type:</span> T-Shirt</li>
+                <li><span>Tag:</span> <a href="#">T-Shirt</a>, <a href="#">Women</a>, <a href="#">Top</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tt-collapse-block">
+            <div class="tt-item">
+              <div class="tt-collapse-title">DESCRIPTION</div>
+              <div class="tt-collapse-content">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum.</div>
+            </div>
+            <div class="tt-item">
+              <div class="tt-collapse-title">ADDITIONAL INFORMATION</div>
+              <div class="tt-collapse-content">
+                <table class="tt-table-03">
+                  <tbody>
+                    <tr>
+                      <td>Color:</td>
+                      <td>Blue, Purple, White</td>
+                    </tr>
+                    <tr>
+                      <td>Size:</td>
+                      <td>20, 24</td>
+                    </tr>
+                    <tr>
+                      <td>Material:</td>
+                      <td>100% Polyester</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tt-item">
+              <div class="tt-collapse-title tt-poin-comments">REVIEWS (3)</div>
+              <div class="tt-collapse-content">
+                <div class="tt-review-block">
+                  <div class="tt-row-custom-02">
+                    <div class="col-item">
+                      <h2 class="tt-title">1 REVIEW FOR VARIABLE PRODUCT</h2>
+                    </div>
+                    <div class="col-item"><a href="#">Write a review</a></div>
+                  </div>
+                  <div class="tt-review-comments">
+                    <div class="tt-item">
+                      <div class="tt-avatar"><a href="#"><img
+                            data-src="images/product/single/review-comments-img-01.jpg" alt=""></a></div>
+                      <div class="tt-content">
+                        <div class="tt-rating"><i class="icon-star"></i> <i class="icon-star"></i> <i
+                            class="icon-star"></i> <i class="icon-star-half"></i> <i class="icon-star-empty"></i></div>
+                        <div class="tt-comments-info"><span class="username">by <span>ADRIAN</span></span> <span
+                            class="time">on January 14, 2017</span></div>
+                        <div class="tt-comments-title">Very Good!</div>
+                        <p>Ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          Ut
+                          enim ad minim.</p>
+                      </div>
+                    </div>
+                    <div class="tt-item">
+                      <div class="tt-avatar"><a href="#"><img
+                            data-src="images/product/single/review-comments-img-02.jpg" alt=""></a></div>
+                      <div class="tt-content">
+                        <div class="tt-rating"><i class="icon-star"></i> <i class="icon-star"></i> <i
+                            class="icon-star"></i> <i class="icon-star-half"></i> <i class="icon-star-empty"></i></div>
+                        <div class="tt-comments-info"><span class="username">by <span>JESICA</span></span> <span
+                            class="time">on January 14, 2017</span></div>
+                        <div class="tt-comments-title">Bad!</div>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                    <div class="tt-item">
+                      <div class="tt-avatar"><a href="#"></a></div>
+                      <div class="tt-content">
+                        <div class="tt-rating"><i class="icon-star"></i> <i class="icon-star"></i> <i
+                            class="icon-star"></i> <i class="icon-star-half"></i> <i class="icon-star-empty"></i></div>
+                        <div class="tt-comments-info"><span class="username">by <span>ADAM</span></span> <span
+                            class="time">on January 14, 2017</span></div>
+                        <div class="tt-comments-title">Very Good!</div>
+                        <p>Diusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tt-review-form">
+                    <div class="tt-message-info">BE THE FIRST TO REVIEW <span>“BLOUSE WITH SHEER &amp; SOLID
+                        PANELS”</span></div>
+                    <p>Your email address will not be published. Required fields are marked *</p>
+                    <div class="tt-rating-indicator">
+                      <div class="tt-title">YOUR RATING *</div>
+                      <div class="tt-rating"><i class="icon-star"></i> <i class="icon-star"></i> <i
+                          class="icon-star"></i>
+                        <i class="icon-star-half"></i> <i class="icon-star-empty"></i></div>
+                    </div>
+                    <form class="form-default">
+                      <div class="form-group"><label for="inputName" class="control-label">YOUR NAME *</label> <input
+                          type="email" class="form-control" id="inputName" placeholder="Enter your name"></div>
+                      <div class="form-group"><label for="inputEmail" class="control-label">COUPONE E-MAIL *</label>
+                        <input type="password" class="form-control" id="inputEmail" placeholder="Enter your e-mail">
+                      </div>
+                      <div class="form-group"><label for="textarea" class="control-label">YOUR REVIEW *</label>
+                        <textarea class="form-control" id="textarea" placeholder="Enter your review"
+                          rows="8"></textarea></div>
+                      <div class="form-group"><button type="submit" class="btn btn-primary">SUBMIT</button></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid">
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fa fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fa fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fa fa-google-plus"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fa fa-linkedin"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fa fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <div class="block">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="block block-description">RELATED PRODUCT</div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-4">
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="../../../assets/img/jeans.jpg.jpeg" class="card-img" alt="..." data-tooltip="Light Blue">
+          <img src="../../../assets/img/dark-blue-jeans.jpg" class="overlay" alt="..." data-tooltip="Light Blue">
+          <div class="card--icon">
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Quick View">
+                <i class="fa fa-eye"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="You need to login">
+                <i class="fa fa-heart"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Add to compare"><i
+                  class="fa fa-balance-scale"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-info">
+              <a href="#">T-SHIRTS</a>
+            </div>
+            <div class="card-rating">
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star-half half" style="margin-right: 6px;"></i>
+              <i class="fa fa-star empty" style="margin-right: 6px;"></i>
+
+            </div>
+            <h5 class="card-name">
+              <a href="product.html">Flared Shift Dress</a>
+            </h5>
+            <div class="card-price">
+              $12
+            </div>
+            <div class="btn btn-secondary">
+              <i class="fa fa-shopping-bag" style="padding-right: 10px;"></i> ADD TO CART
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="../../../assets/img/t-shirt.jpg" class="card-img" alt="..." data-tooltip="Light Blue">
+          <img src="../../../assets/img/blue-tshirt.jpg" class="overlay" alt="..." data-tooltip="Light Blue">
+          <div class="card--icon">
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Quick View">
+                <i class="fa fa-eye"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="You need to login">
+                <i class="fa fa-heart"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Add to compare"><i
+                  class="fa fa-balance-scale"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-info">
+              <a href="#">T-SHIRTS</a>
+            </div>
+            <div class="card-rating">
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star-half half" style="margin-right: 6px;"></i>
+              <i class="fa fa-star empty" style="margin-right: 6px;"></i>
+            </div>
+            <h5 class="card-name">
+              <a href="product.html">Flared Shift Dress</a>
+            </h5>
+            <div class="card-price">
+              $17
+            </div>
+            <div class="btn btn-secondary">
+              <i class="fa fa-shopping-bag" style="padding-right: 10px;"></i> ADD TO CART
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="../../../assets/img/greytshirt.jpg" class="card-img" alt="..." data-tooltip="Light Blue">
+          <img src="../../../assets/img/women.jpg" class="overlay" alt="..." data-tooltip="Light Blue">
+          <div class="card--icon">
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Quick View">
+                <i class="fa fa-eye"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="You need to login">
+                <i class="fa fa-heart"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Add to compare"><i
+                  class="fa fa-balance-scale"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-info">
+              <a href="#">T-SHIRTS</a>
+            </div>
+            <div class="card-rating">
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star-half half" style="margin-right: 6px;"></i>
+              <i class="fa fa-star empty" style="margin-right: 6px;"></i>
+            </div>
+            <h5 class="card-name"><a href="product.html">Flared Shift Dress</a></h5>
+            <div class="card-price">$12</div>
+            <div class="btn btn-secondary">
+              <i class="fa fa-shopping-bag" style="padding-right: 10px;"></i> ADD TO CART
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="../../../assets/img/mantshirt.jpg" class="card-img" alt="..." data-tooltip="Light Blue">
+          <img src="../../../assets/img/man.jpg" class="overlay" alt="..." data-tooltip="Light Blue">
+          <div class="card--icon">
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Quick View">
+                <i class="fa fa-eye"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="You need to login">
+                <i class="fa fa-heart"></i>
+              </a>
+            </div>
+            <div class="card--icon-list">
+              <a href="#" data-toggle="tooltip" data-placement="left" title="Add to compare"><i
+                  class="fa fa-balance-scale"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="card-info">
+              <a href="#">T-SHIRTS</a>
+            </div>
+            <div class="card-rating">
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star checked" style="margin-right: 6px;"></i>
+              <i class="fa fa-star-half half" style="margin-right: 6px;"></i>
+              <i class="fa fa-star empty" style="margin-right: 6px;"></i>
+            </div>
+            <h5 class="card-name"><a href="product.html">Flared Shift Dress</a></h5>
+            <div class="card-price" style="color: red;">$14 <span
+                style="text-decoration: line-through; color: black; margin-left: 4px;">$24</span>
+            </div>
+            <div class="btn btn-secondary">
+              <i class="fa fa-shopping-bag" style="padding-right: 10px;"></i> ADD TO CART
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

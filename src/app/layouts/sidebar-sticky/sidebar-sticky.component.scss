@@ -1,0 +1,45 @@
+@import "../../../sass/variables";
+
+
+#mySidenav {
+  @media (max-width: 991px) {
+    display: none;
+   }
+  a {
+    position: fixed;
+    right: -14rem;
+    transition: 0.3s;
+    padding: 8px;
+    width: 19%;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 6px;
+    z-index: 9999;
+  }
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#video {
+  top: 11rem;
+  background-color: $blue;
+}
+
+#demo {
+  top: 14.5rem;
+  background-color: $blue;
+  overflow-y: hidden;
+}
+
+#rtl {
+  top: 17.5rem;
+  background-color: $blue;
+}
+
+#swatch {
+  top: 20.5rem;
+  background-color: white;
+}
