@@ -1,7 +1,32 @@
+Angular is a front-end framework which is used to create web applications. It uses typescript by default for creating logics and methods for a class but the browser doesn’t know typescript. Here webpack comes in picture, webpack is used to compile these typescript files to JavaScript. In addition, there are so many configuration files you will need to run an angular project on your computer.
+Angular CLI is a tool that does all these things for you in some simple commands. Angular CLI uses webpack behind to do all this process.
+
+Note: Please make sure you have installed node and npm in your system. You can check your node version and npm version by using the following command:
+
+node --version
+npm --version
+
 # Requirements
-Angular CLI Version: 10.0.0 Run 'npm install @angular/cli@latest @angular/compiler-cli --save' to install the latest version.
+
+Angular CLI Version: 9.1.9
 Node Version: 12.18
 node_modules : Run 'npm install' before running the application to install the required dependencies.
+
+# How to Setup Angular Projects
+
+Step 1: Install NPM (Node Package Manager)
+
+Step-2: Install angular cli
+npm install - g @angular/cli
+
+Step-3: Create new project by this command
+Choose yes for routing option and, CSS or SCSS.
+
+Step-4: Go to your project directory
+cd myNewApp
+
+Step-5: Run server and see your application in action
+ng serve 
 
 # WokkieResponsiveTemplate
 
