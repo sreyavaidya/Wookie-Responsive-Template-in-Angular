@@ -1,6 +1,11 @@
+# Requirements
+Angular CLI Version: 9.1.7
+Node Version: 12.18
+node_modules : Run 'npm install' before running the application to install the required dependencies.
+
 # WokkieResponsiveTemplate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7. The project is build using Angular and SCSS.
 
 ## Development server
 
