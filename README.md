@@ -1,5 +1,5 @@
 # Requirements
-Angular CLI Version: 9.1.7
+Angular CLI Version: 10.0.0 Run 'npm install @angular/cli@latest @angular/compiler-cli --save' to install the latest version.
 Node Version: 12.18
 node_modules : Run 'npm install' before running the application to install the required dependencies.
 
